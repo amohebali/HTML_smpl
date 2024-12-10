@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form_smpl</title>
+</head>
+<body>
+    <!-- action and method(get/post) is about backend -->
+    <form action="#">
+        <!-- for and id for focus -->
+         <!-- name for passing variable to server(backend ) -->
+        <label for="username">Username</label>
+        <input type="text" name="username" placeholder="username" id="username">
+        <br><br>
+        
+        <label for="">Password</label>
+        <input type="password" name="password" placeholder="password">
+        <br><br>
+        
+        <!-- default value -->
+        <label for="">Email</label>
+        <input type="email" name="email" value="email@gmail.com">
+        <br><br>
+
+        <label fro="number">Number</label>
+        <input type="number" name="number" value="1" id="number">
+        <br><br>
+
+        <!-- textarea -->
+        <label for="note">Notice</label><br>
+        <textarea name="text" id="note" cols="30" rows="10" placeholder="note"></textarea>
+        <br><br>
+        
+        <!-- radio button -->
+        <!-- 'name' must be same -->
+         <!-- 'checked' is default selection -->
+        <input type="radio" name="lang" value="fa" checked> Farsi
+        <input type="radio" name="lang" value="eng"> English
+        <br><br>
+        
+        <!-- check box -->
+        <input type="checkbox" name="prog" value="java"   checked> java
+        <input type="checkbox" name="prog" value="python"        > Python
+        <input type="checkbox" name="prog" value="etc"           > Other
+        <br><br>
+
+        <!-- select input -->
+         <!-- 'multiple' is for select multipe option with Ctrl -->
+        <label for="">Gender</label><br>
+        <select name="gender" id="" multiple>
+            <option value="M">Male</option>
+            <option value="F">Female</option>
+            <option value="O">Other</option>
+        </select>
+        <br><br>
+
+
+         
+        
+        <input type="submit" value="submit">
+        <!-- like last line -->
+        <button type="submit">Submit Button</button>
+        <br><br>
+
+    </form>
+
+    <br><br>
+    <a href="./index.html">
+        <img width="20" height="20" src="./img/back.png">
+    </a>
+</body>
+</html>
