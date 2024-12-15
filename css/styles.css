@@ -3,3 +3,14 @@ h3 {
     font-size: 20px;
     
 }
+#first_h3{
+    color:aqua;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.smpl{
+    color:green;
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
