@@ -1,19 +1,21 @@
 h1 {
-    color:red;
+    color:white;
     font-size: 30px;
     background-color: green;
-    width: 300px;
-    height: 100px;
+    width: 600px;
+    height: 300px;
 }
 
-f {
-    background-color: blue;
-    width: 300px;
-    height: 100px;
-}
 
-s {
+.outer {
     background-color: green;
     width: 300px;
     height: 100px;
+}
+
+
+.inner {
+    background-color: yellow;
+    width: 30%;
+    height: 100%;
 }
