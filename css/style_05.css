@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    
+}
+
+.navbar {
+    background: cyan;
+    height: 150px;
+}
+
+.banner {
+    background: green;
+    height: calc(100vh - 150px);
+    /* height: 100vh; */
+}
